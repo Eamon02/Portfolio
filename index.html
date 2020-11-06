@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head> 
+        <!--required meta tags-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1", shrink-to-fit="no">
        
@@ -15,13 +16,53 @@
 
         <body>
             <!-- NavBar -->
-            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+            <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color:blue"> 
+            
             <div class="container-fluid">
                 <!-- Nave is medium (md) break point,light color background and dark text, sticky-top keeps nav stuck at top, fluid makes nav take 100% of screen -->
             
-                <a class="navbar-brand" href="#"><img src="img/xxxxxxxx"></a> 
-            <!-- Logo added, but need image source-->
+                <!--<a class="navbar-brand" href="#">Eamon McHugh</a>-->
+                <!-- Image and text to first nav item-->
+                <a class="navbar-brand" href="#">
+                 <img src="https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_animoji_panda_carousel.gif.large.gif" width="50" height="40" class="d-inline-block align-top" alt="">
+                Eamon McHugh
+                 </a>
+            
+                 <!--formated nave bar to buttons and navbar collapsable icon-->
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto"> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
 
+
+                <!-- added additional nav items with faded reactive text and subtle displat of active page based on text color and fade-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                <form class="form-inline">
+                <!--Button added to navbar-->
+                    <button class="btn btn-outline-success" type="button">Donate</button>
+                </form>
+
+                <!--create change name to nav-bar dropdown with info when sm-->
             </div>
             </nav>
             
