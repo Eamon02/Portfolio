@@ -4,6 +4,11 @@
         <!--required meta tags-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1", shrink-to-fit="no">
+
+        <!--Bootstrap Bundle Jeez this was annoying-->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
        
         <Title>Homework-2</Title>
        <!--Bootstrap Syle sheet ref-->
@@ -16,39 +21,25 @@
 
         <body>
             <!-- NavBar -->
-            <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:blue"> 
-            
-            <div class="container-fluid">
-                <!-- Nave is medium (md) break point,light color background and dark text, sticky-top keeps nav stuck at top, fluid makes nav take 100% of screen -->
-            
-                <!--<a class="navbar-brand" href="#">Eamon McHugh</a>-->
-
-                <!-- Image and text to first nav item-->
-                <a class="navbar-brand" href="#">
-                 <img src="https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_animoji_panda_carousel.gif.large.gif" width="50" height="40" class="d-inline-block align-top" alt="iphonex_animoji_panda_carousel" 
-                 SameSite="secure">
-                  <!--had to secure cookies from third party link-->
-                Eamon McHugh
-                 </a>
-            
-                 <!--formated nave bar to buttons and navbar collapsable icon-->
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                 </button>
-
-                  <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0"> 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Contact.html">Connect</a>
-                        </li>
-                    </ul>
-
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#" id="bg-color">Eamon McHugh</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                 
 
                 <!-- added additional nav items with faded reactive text and subtle displat of active page based on text color and fade-->
                <!-- <li class="nav-item active">
@@ -71,12 +62,9 @@
             </div>
             </nav>
 
+             <!--Carousel-->
 
-
-
-                <!--Carousel-->
-
-                <div id="slides" class="carousel slide" data-ride="carousel">
+             <div id="slides" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#slides" data-slide-to="0" class="active"></li>
                     <li data-target="#slides" data-slide-to="1"></li>
@@ -101,20 +89,11 @@
                             <img src="Andromeda Stack 200mm 11:4:20.PNG">
                         </div>
                     
-                        <!--Jumbotron-->
-                        <div class="container-fluid">
-                        <div class="row Jumbotron">
+                    
 
-                        </div>
-                        </div>
-                </div>
-
-            </div>  
+   
 
 
             
         </body>           
-
-
-
 </html>
