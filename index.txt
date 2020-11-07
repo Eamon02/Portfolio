@@ -73,10 +73,9 @@
 
 
 
+  <!--Carousel-->
 
-                <!--Carousel-->
-
-                <div id="slides" class="carousel slide" data-ride="carousel">
+             <div id="slides" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#slides" data-slide-to="0" class="active"></li>
                     <li data-target="#slides" data-slide-to="1"></li>
@@ -89,8 +88,9 @@
                            
                             <!--Overlay content-->
                             <h1 class="display-2">Eamon McHugh</h1>
-                            <button type="button" class="btn btn-outline-light btn-lg">Portfolio</button>
-                            <button type="button" class="btn btn-primary btn-lg">Donate</button>
+                            <a role="button" class="btn btn-outline-light btn-lg" href="Portfolio.html">Portfolio</a>
+                            
+                            <a class="btn btn-primary btn-lg" href="https://venmo.com/Eamon-" role="button">Donate</a>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item">
