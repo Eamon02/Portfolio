@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE text>
 <html lang="en-us">
     <head> 
         <!--required meta tags-->
