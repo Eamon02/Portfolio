@@ -6,7 +6,7 @@
 
 ## Photos
 
-![AboutMe] (About Me Screenshot.png "Screenshot 1")
+![AboutMe](./screenshot/About_Me_Screenshot.png)
 
 
 ### Directions
