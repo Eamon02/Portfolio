@@ -123,6 +123,15 @@ figure {
     padding: 1rem;
 }
 
+body {
+  background-image: url('https://cdn.britannica.com/s:900x675/41/155241-131-FB2C633F/View-Andromeda-Galaxy.jpg');
+  display: block;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
 
 
 

@@ -118,3 +118,18 @@
 
 
 </html>
+
+
+
+add linked-in profile
+
+
+make carousel buttons stay in less px and move with screen 
+
+make carousel slower/smoother
+
+fixed background
+
+learn how to wrap and edit objects (rows/columns)
+
+css styling 
