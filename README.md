@@ -3,15 +3,17 @@
 
 ## Links
 [Link to live site](https://eamon02.github.io/Bootstrap-Repositoy/)
----
+___
 ## Photos
 
 ![AboutMe](./screenshots/About_Me_Screenshot.png)
-___
+
 ![Portfolio](./screenshots/Portfolio_Page_Screenshot.png)
----
+
 ![Contact](./screenshots/Contact_Page_Screenshot.png)
----
+
+[Return to Top](#Responsive-Portfolio)
+___
 
 ### Directions
  * 3 pages (```index.html```, ```contact.html```, and ```portfolio.html```)
@@ -29,7 +31,7 @@ ___
 * On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
 * Use an HTML validation service to ensure that each page has valid HTML.
-
+___
 
 ### Minimum Requirements
 
@@ -55,4 +57,4 @@ ___
 
 * Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
 
-* [Return to Top](#Responsive-Portfolio)
+[Return to Top](#Responsive-Portfolio)
