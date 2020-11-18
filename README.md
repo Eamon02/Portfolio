@@ -7,6 +7,8 @@
 ## Photos
 
 ![AboutMe](./screenshots/About_Me_Screenshot.png)
+![Portfolio](./screenshots/Portfolio_Page_Screenshot.png)
+![Contact](./screenshots/Contact_Page_Screenshot.png)
 
 
 ### Directions
