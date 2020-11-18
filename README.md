@@ -6,7 +6,7 @@
 
 ## Photos
 
-![AboutMe](./screenshot/About_Me_Screenshot.png)
+![AboutMe](./screenshots/About_Me_Screenshot.png)
 
 
 ### Directions
