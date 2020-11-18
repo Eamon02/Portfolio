@@ -3,13 +3,15 @@
 
 ## Links
 [Link to live site](https://eamon02.github.io/Bootstrap-Repositoy/)
-
+---
 ## Photos
 
 ![AboutMe](./screenshots/About_Me_Screenshot.png)
+___
 ![Portfolio](./screenshots/Portfolio_Page_Screenshot.png)
+---
 ![Contact](./screenshots/Contact_Page_Screenshot.png)
-
+---
 
 ### Directions
  * 3 pages (```index.html```, ```contact.html```, and ```portfolio.html```)
