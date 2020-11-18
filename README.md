@@ -6,10 +6,8 @@
 
 ## Photos
 
-[Screenshot of completed website.](About Me Screenshot.png)
-![Screenshot of completed website.](Contact Page Screenshot.png)
-![Screenshot of completed website.](Portfolio Page Screenshot.png)
-
+![alt text][AboutMe]
+[AboutMe]: About Me Screenshot.png
 
 
 ### Directions
