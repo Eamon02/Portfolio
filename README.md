@@ -6,8 +6,7 @@
 
 ## Photos
 
-![alt text][AboutMe]
-[AboutMe]: About Me Screenshot.png
+![AboutMe] (About Me Screenshot.png "Screenshot 1")
 
 
 ### Directions
