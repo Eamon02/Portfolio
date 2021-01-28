@@ -2,7 +2,7 @@
 ### In this project, I used the Bootstrap CSS Framework to create a responsive portfolio.
 
 ## Links
-[Link to live site](https://eamon02.github.io/Bootstrap-Responsive-Portfolio/)
+[Link to live site](https://eamon02.github.io/Portfolio/)
 ___
 ## Photos
 
