@@ -44,19 +44,19 @@
 }
 
 /* social media icons*/
-.fa-instagram {
+/* .fa-instagram {
   color: #517fa8;
 }
 .fa-google-plus-g{
   color: #dd4b39;
-}
-.fa-instagram, .fa-google-plus-g { 
+} */
+.fa-instagram, .fa-google-plus-g, .gitIcon { 
   font-size: 4em;
   margin: 2rem; 
 }
-.fa-instagram:hover, .fa-google-plus-g:hover {
+/* .fa-instagram:hover, .fa-google-plus-g:hover {
   color: blue;
-} 
+}  */
 
 /* Footer */
 footer {
@@ -133,7 +133,14 @@ body {
   will-change: transform;
 }
 
-
+.portContainer{
+  background:rgb(255,255,255, ) !important;
+}
+.portContainer img:hover{
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  transform: scale(1.1);
+}
 
 
 /*
