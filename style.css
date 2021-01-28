@@ -26,7 +26,7 @@
 .carousel-caption h5 {
   font-size: 200%;
   font-weight: 500;
-  text-shadow: 5px 5px 2px blue;
+  text-shadow: 5px 5px 2px #0d6efd;
 }
 .carousel-caption a {
   text-shadow: #000;
@@ -34,8 +34,9 @@
 
 /* Button edits */
 .btn-primary:hover {
-  background-color: blueviolet;
-  border: 1px solid blue;
+  background-color: rgb(255, 255, 255, 5%);
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
 }
 
 /* Padding */
@@ -119,9 +120,9 @@ figure {
   will-change: transform;
 }
 /*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
+/* [class*="col-"] {
     padding: 1rem;
-}
+} */
 
 body {
   background-image: url('https://cdn.britannica.com/s:900x675/41/155241-131-FB2C633F/View-Andromeda-Galaxy.jpg');
